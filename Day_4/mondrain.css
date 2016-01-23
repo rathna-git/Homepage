@@ -1,0 +1,174 @@
+
+body {
+	background-color: #ffe5e5 ;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+#main {
+	height :1200px;
+	width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+#painting {
+   background-color: #e5ffff;
+   height : 500px;
+   width: 700px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 35px;
+   box-shadow: 8px 8px 0px #b7c6cc;
+}
+/* First Row */
+
+#firstrow {
+	height:245px;
+	width:700px;
+}
+
+/* First row - Two boxes on left and right */
+.topcolumn{
+  height:245px;
+  width:145px;	
+}
+
+.topcornerbox {
+	height: 120px;
+	width: 145px;
+	}
+
+
+/* First row horizontal divider */
+.hdivider {
+	height: 5px;
+	width: 145px;
+	
+}
+/* First row vertical divider */ 
+.divider1 {
+	height: 245px;
+	width:5px;
+} 
+/* First row middle column */
+#box3 {
+	height: 245px;
+    width:400px; 
+}
+/* long horizontal divider */
+.horizontaldivider {
+	height: 5px;
+	width: 700px;
+}
+/*third row divs */
+#thirdrow{
+	height:145px;
+	width:700px;
+}
+.mediumbox{
+	height:145px;
+	width:145px;
+}
+/*Third row vertical divider */
+.divider2 {
+	height: 145px;
+	width:5px;
+} 
+/*Third row center box */
+#box7 {
+	height: 145px;
+	width:400px;
+}
+
+/*fifth row divs */
+#fifthrow{
+	height:100px;
+	width:700px;
+}
+.smallbox{
+	height:100px;
+	width:145px;
+}
+/*fifth row vertical divider */
+.divider3 {
+	height: 100px;
+	width:5px;
+} 
+/*fifth row center box */
+#box10 {
+	height: 100px;
+	width:400px;
+}
+
+#redbox {
+	height:40px;
+	width:40px;
+	box-shadow: 5px 5px 0px #b7c6cc;
+
+}
+#bluebox {
+	height:40px;
+	width:40px;
+	box-shadow: 5px 5px 0px #b7c6cc;
+
+}
+#yellowbox {
+	height:40px;
+	width:40px;
+	box-shadow: 5px 5px 0px #b7c6cc;
+
+}
+#greenbox {
+	height:40px;
+	width:40px;
+	box-shadow: 5px 5px 0px #b7c6cc;
+
+}
+
+ul
+{
+    list-style-type: none;
+    float: left;
+    margin-left: -100px;
+    margin-top: -400px;
+}
+
+li{
+	padding: 15px;
+}
+
+p{
+	text-align:center;
+	font-size: 20px;
+}
+
+
+.left {
+	float: left;
+}
+
+
+.right {
+	float:right;
+}
+
+
+.black {
+	background-color: black;
+}
+
+.color1 {
+	background-color: #f04242;
+}
+.color2 {
+	background-color: #3366ff;
+}
+.color3 {
+	background-color: #ffff66;
+}
+.color4 {
+	background-color: #71db71; 
+}
