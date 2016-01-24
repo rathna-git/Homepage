@@ -1,0 +1,23 @@
+body {
+	background-color:#1a1a1a;
+	height: 3000px;
+	margin-top: 0px
+}
+
+#container {
+	height: 1800px;
+	width: 900px;
+	background-color: #595959;
+	margin: 0px auto;
+
+}
+.boxes {
+	position:relative;
+	height:100px;
+	width:100px;
+	margin:0px;
+	z-index: 1;
+	float:left;
+
+	
+}
