@@ -1,0 +1,151 @@
+body {
+	background-color: #e5fff5;
+
+}
+#container {
+	height: 700px;
+	width:900px;
+	margin: auto;
+	text-align: center;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#heading {
+margin: auto;
+padding-top: 30px;
+font-size: 45px;
+text-shadow: 1px 1px 1px #b3b3b3;
+}
+
+.shake {
+	-webkit-animation: shake 1s;
+	-moz-animation: shake 1s;
+	-ms-animation: shake 1s;
+	animation: shake 1s;
+}
+
+
+.button {
+	width: 200px;
+	margin: 50px auto;
+	padding: 15px  5px;
+	font-size: 24px;
+	background-color: #ff0066;
+	cursor: pointer;
+	border-radius: 5px;
+	
+}
+.btn_up {
+	box-shadow: 1px 0 0 #a6a6a6,   0 1px 0 #a6a6a6, 
+				2px 1px 0 #a6a6a6, 1px 2px 0 #a6a6a6,
+				3px 3px 1px rgba(0,0,0,0.3);	
+}
+.btn_down {
+	box-shadow: -1px 0 0 #a6a6a6,   0 -1px 0 #a6a6a6, 
+				-2px -1px 0 #a6a6a6, -1px -2px 0 #a6a6a6,
+				-2px -2px 1px rgba(0,0,0,0.5), 0 0 4px rgba(0,0,0,0.3) inset;
+}
+
+#dice_container{
+	margin: auto;
+    padding-top: 30px;
+    height: 300px;
+    width:500px;
+}
+.dice_box{
+	height:150px;
+	width: 150px;
+	position: relative;
+	display: inline-block;
+	margin: 50px 20px;
+	border: 10px solid #f2f2f2;
+	box-shadow: 10px 10px 10px 1px #b3b3b3;
+	background-color: white;
+	border-radius: 10%;	
+}
+
+
+.dot{
+	position: absolute;
+	height:25px;
+	width:25px;
+	border-radius: 50%;
+	margin: 5px;
+     
+	background: #ff0066; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(10% 20%, circle, #b3b3b3, #1a1a1a 70% ); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(10% 20%, circle, #b3b3b3, #1a1a1a 70% ); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(10% 20%, circle, #b3b3b3, #1a1a1a 70% ); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(10% 20%, circle, #b3b3b3, #1a1a1a 70% ); /* Standard syntax */
+}
+/*dot order [ 1   5
+              2 4 6
+              3   7]*/
+
+ .dot1 {
+	top: 8px;
+	left: 8px;
+}
+
+.dot2 {
+	top: 50px;
+	left: 8px;
+}
+
+.dot3 {
+	top: 100px;
+	left: 8px;
+}
+
+.dot4 {
+	top: 50px;
+	left: 58px;
+}
+
+.dot5 {
+	top: 8px;
+	right: 8px;
+}
+
+.dot6 {
+	right: 8px;
+	top: 50px;
+}
+
+.dot7{
+	right: 8px;
+	top: 100px;
+}
+
+@-webkit-keyframes shake {
+	0%, 100% {-webkit-transform: translateX(0);} 
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-webkit-transform: translateX(5px);} 
+	10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {-webkit-transform: translateX(-5px);} 
+}
+
+@-moz-keyframes shake {
+	0%, 100% {-moz-transform: translateX(0);} 
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-moz-transform: translateX(5px);} 
+	10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {-moz-transform: translateX(-5px);} 
+}
+
+@-o-keyframes shake {
+	0%, 100% {-o-transform: translateX(0);} 
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-o-transform: translateX(5px);} 
+	10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {-o-transform: translateX(-5px);} 
+}
+
+@-ms-keyframes shake {
+	0%, 100% {-ms-transform: translateX(0);} 
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {-ms-transform: translateX(5px);} 
+	10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {-ms-transform: translateX(-5px);} 
+}
+
+@keyframes shake {
+	0%, 100% {transform: translateX(0);} 
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 85%, 95% {transform: translateX(5px);} 
+	10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90% {transform: translateX(-5px);} 
+}
+
+
+
+
