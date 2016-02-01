@@ -1,0 +1,157 @@
+body{
+	background-color: white;
+	margin: 0px;
+}
+#container {
+	height:700px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+#title {
+	margin:0 auto;
+	height:80px;
+
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+
+.titlebox{
+ width:300px;
+ border-bottom: 3px solid #3385ff;
+ }
+ 
+.titlebox p{
+	font-size: 25px;
+	color: #cc2900;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#main 
+{
+height :350px;
+width:900px;
+}
+
+#left_container {
+	width:350px;
+	
+	position: relative;
+}
+#right_container {
+	width:350px;
+	position: relative;
+}
+.hand{
+    position: absolute;
+}
+.rock {
+	margin-left: 70px;
+	position: absolute;
+}
+.paper {
+	margin-left: 70px;
+	position: absolute;
+}
+.scissors{
+	margin-left: 70px;
+	position: absolute;
+}
+
+#center_container{
+	height:0px;
+	width:150px;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 110px;
+	text-align: center;
+}
+#message {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 30px;
+    color: #006600;
+    font-weight: bold;
+}
+#bottom_container{
+	position: absolute;
+	margin-left:auto;
+	margin-top: 320px;
+	width:900px;
+	
+}
+.button{
+	
+	width:150px;
+	background-color: #3385ff;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 20px;
+	display: inline-block;
+	box-shadow: 2px 2px 2px 2px #a6a6a6;
+	margin-left: 100px;
+	margin-top: 0px;
+
+
+}
+.button p{
+	margin: 4px auto;
+	color: white;
+}
+
+.shake {
+	-webkit-animation: shake 1.5s;
+	-moz-animation: shake 1.5s;
+	-ms-animation: shake 1.5s;
+	animation: shake 1.5s;
+}
+
+@-webkit-keyframes shake {
+	0%, 100% {-webkit-transform: translateY(0);} 
+	14%, 43%, 71%, 95%, 100% {-webkit-transform: translateY(30px);
+						 -webkit-animation-timing-function: ease-out; } 
+	29%, 57%, 86% {-webkit-transform: translateY(-30px);
+				   -webkit-animation-timing-function: ease-out} 
+}
+@-moz-keyframes shake {
+	0%, 100% {-moz-transform: translateY(0);} 
+	14%, 43%, 71%, 95%, 100% {-moz-transform: translateY(30px);
+						 -moz-animation-timing-function: ease-out; } 
+	29%, 57%, 86% {-moz-transform: translateY(-30px);
+				   -moz-animation-timing-function: ease-out} 
+}
+@-o-keyframes shake {
+	0%, 100% {-o-transform: translateY(0);} 
+	14%, 43%, 71%, 95%, 100% {-o-transform: translateY(30px);
+						 -o-animation-timing-function: ease-out; } 
+	29%, 57%, 86% {-o-transform: translateY(-30px);
+				   -o-animation-timing-function: ease-out} 
+}
+@-ms-keyframes shake {
+	0%, 100% {-ms-transform: translateY(0);} 
+	14%, 43%, 71%, 95%, 100% {-ms-transform: translateY(30px);
+						 -ms-animation-timing-function: ease-out; } 
+	29%, 57%, 86% {-ms-transform: translateY(-30px);
+				   -ms-animation-timing-function: ease-out} 
+}
+@keyframes shake {
+	0%, 100% {transform: translateY(0);} 
+	14%, 43%, 71%, 95%, 100% {transform: translateY(30px);
+						 animation-timing-function: ease-out; } 
+	29%, 57%, 86% {transform: translateY(-30px);
+				   animation-timing-function: ease-out} 
+}
+
+
+
+
+
+
+
+
+
+
