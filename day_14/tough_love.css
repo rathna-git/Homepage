@@ -1,0 +1,37 @@
+body{
+	background-color: #ffffe5;
+}
+#container {
+	width:900px;
+	height:700px;
+	margin: 100px auto;
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	letter-spacing: 2px;
+	font-size: 35px;
+
+}
+form {
+	margin-top: 100px;
+}
+input[type="text"] {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  font-size: 18px;
+  padding: 10px;
+  border: solid 1px #ff0000;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+input[type="submit"] {
+	margin-top: 20px;
+	cursor:pointer;
+	padding: 15px 30px;
+	color: #ffffff;
+	background-color: #cc0000;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 0 none;
+    box-shadow: 2px 2px 2px 2px #a6a6a6;
+}
