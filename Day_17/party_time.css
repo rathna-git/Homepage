@@ -1,0 +1,73 @@
+body{
+	margin: 0 auto;
+	background-color: #fff2e5;
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#header_message {
+	height: 100px;
+	box-shadow: 2px 2px 2px #a6a6a6;
+	background-color:  #ffebcc;
+	margin :0 auto;
+	min-width: 100%;
+	display: inline-block;
+
+}
+
+#header_message h1 {
+ color : #000066;
+ font-size: 40px;
+}
+#date_container {
+	margin-top:40px;
+}
+form {
+	margin: 30px auto;
+	font-size: 20px;   
+	}
+
+input[type="date"] {
+  display: inline-block;
+  margin: 0 auto;
+  width: 200px;
+  padding: 2px;
+  font-size: 18px;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+input[type="time"] {
+  display: inline-block;
+  margin: 0 auto;
+  width: 150px;
+  padding: 2px;
+  font-size: 18px;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+input[type="submit"] {
+	
+	margin-left: 20px;
+	cursor:pointer;
+	padding: 10px 15px;
+	color: #ffffff;
+	background-color: #cc0000;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 0 none;
+    box-shadow: 2px 2px 2px 2px #a6a6a6;
+}
+#message{
+	margin-top: 30px auto;
+	height: 500px;
+}
+ul {
+	list-style-type: none;
+	margin-top: 40px;
+	
+}
+
+li {
+	margin: 12px 0;
+	
+	
+}

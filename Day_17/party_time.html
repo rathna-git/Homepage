@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Party Time? | Rathna Ganjigunta</title>
+	<link rel="stylesheet" type="text/css" href="party_time.css">
+	<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+</head>
+<body>
+  <div id = "main">
+  	<div id = "header_message"><h1 id= "party">Time to Party?</h1></div>
+  	<div id = "date_container">
+  	<h2>Enter a birthdate and time to see if it's party time</h2>
+    <form action="action_page.php">
+      Birthdate:
+      <input type="date" name="bday" id="#datepicker">
+      Time:
+      <input type="time" name="usr_time" id="#timepicker">
+      <input type="submit" value= "Party?">
+    </form>
+  	</div>
+   <div id="message">
+   	<ul>
+    <li id ="date"></li>
+    <li id ="years"></li>
+    <li id ="days"></li>
+    <li id ="mins"></li>
+  </ul>
+  <ul>
+    <li id ="10k"></li>
+    <li id ="20k"></li>
+    <li id ="500k"></li>
+    <li id ="1mil"></li>
+    <li id ="10mil"></li>
+    <li id ="50mil"></li>
+    <li id ="1bil"></li>
+  </ul>
+
+
+
+
+
+
+
+
+
+   </div>
+
+
+
+  </div>
+
+    
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script type="text/javascript" src="party_time.js"></script>
+
+</body>
+</html>
