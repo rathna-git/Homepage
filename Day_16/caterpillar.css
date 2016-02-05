@@ -1,0 +1,9 @@
+body{
+	margin: 0 auto;
+	background-color: #262626;
+	position: relative;
+}
+.spots {
+	border-radius: 50%;
+	position: absolute;
+}
