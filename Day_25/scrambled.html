@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scrambled | Rathna Ganjigunta</title>
+	<link rel="stylesheet" type="text/css" href="scrambled.css">
+</head>
+<body>
+   <div id="scrambled">
+   	
+   	<div id=links_container>
+   		<h3>SCRAMBLED!</h3>
+   		<a href="../homepage.html" target="_blank">HOME</a>
+   		<a href="http://rathnaganjigunta.tumblr.com/" target="_blank">BLOG</a>
+   	</div>
+
+   	<div id="start_page">
+   	<div id="instructions">
+   	   <p>You have three chances to unscramble the word.</p>
+   	   <p>If you succeed, you get a point.</p>
+   	   <p>If you fail, you lose a point.</p>
+   	</div>
+   	<button id="start_button" >Let's Play!</button>
+   </div>
+
+   <div id="game_page">
+      <div id="message">Here's your first word. Good Luck!</div>
+      <div id="word"></div>
+
+      <div id="game_container">
+      	<div id="score_container">Score : 0</div>
+      	<div id="word_container"></div>
+      </div>
+
+      <div id="text_input">
+      
+        <input type="text" placeholder="Enter your guess here..." id="user_word"></input>
+        <button id="user_submit" class = "user_submit">Submit</button>
+      
+      </div>  
+   </div>
+
+
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="scrambled.js"></script>
+
+
+</body>
+</html>

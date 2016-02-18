@@ -1,0 +1,128 @@
+body{
+	background-color: #e6ffff;
+	margin: 0px;
+	overflow: hidden;
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+h3{
+	
+	font-size: 28px;
+	float: left;
+	color: black;
+	padding-left: 30px;
+	padding-top: 15px;
+	margin: 0px;
+}
+a {
+	float: right;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+}
+
+#links_container{
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	height: 60px;
+	min-width: 100%;
+	background-color: #fff;
+	border-bottom: 5px solid #009999;
+	font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+#start_page{
+	margin: 120px auto;
+	text-align: center;
+}
+#instructions{
+	font-size: 30px;
+	
+}
+#start_button{
+	height:70px;
+	width:220px;
+	margin-top: 100px;
+	background-color: #009999;
+	font-size: 20px;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#game_page{
+	margin: 120px auto;
+	text-align: center;
+	display: none;
+}
+#message{
+	font-size: 30px;	
+}
+
+#word{
+	font-size: 30px;	
+}
+#game_container{
+	position: relative;
+	margin: auto;
+    top:120px; 
+	height:200px;
+	width:700px;
+}
+#score_container{
+	height:40px;
+	width:180px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #cc0000;
+	float: right;
+	border-radius: 5px 5px 0px 0px;
+	padding-top: 15px;
+	z-index: 1px;
+}
+#word_container{
+	height:55px;
+	width:700px;
+	font-size: 35px;
+	color: #fff;
+	background-color: #cc0000;
+	float: right;
+	border-radius: 5px;
+	padding-top: 20px;
+	margin-top: -3px;
+	position: relative;
+	letter-spacing: 25px;
+}
+#text_input{
+	position: relative;
+	margin: auto;
+    top:90px; 
+	height:200px;
+	width:700px;
+}
+
+input[type=text]{
+	width:585px;
+	height:30px;
+	font-size: 25px;
+	border: none;
+	border-radius: 5px 0px 0px 5px;
+	position: relative;
+	float: left;
+	padding: 10px;
+	z-index: 1px;
+	outline: none;
+}
+#user_submit{
+	width:95px;
+	height: 50px;
+	float: right;
+	background-color: #009999;
+	color: #fff;
+	font-size: 15px;
+	position: relative;
+	border: none;
+	border-radius: 0px 5px 5px 0px;  
+}
+
+
