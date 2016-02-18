@@ -1,0 +1,249 @@
+body{
+	background-color:#ffb366;
+	overflow: auto;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	text-align: center;
+	letter-spacing: 1px;	
+}
+
+ h1 {
+	margin-top: 130px;
+	font-size: 40px;
+	color: #000;
+	padding: 1px;
+}
+
+ h2{
+	font-size: 25px;
+	margin-bottom: 150px;
+	color: #000;
+}
+img{
+	margin-top: -120px;
+	margin-bottom: 20px;
+	height: 250px;
+	width:150px;
+	margin-left: auto;
+	
+}
+#modal {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #f3b34e;
+}
+
+
+.button {
+	margin: 25px;
+	width:180px;
+	height:140px;
+	padding: 15px;
+	background-color: #0000ff;
+	font-size: 18px;
+	color:#fff;
+	text-decoration: none;
+	box-shadow: 2px 2px 2px #a6a6a6;
+}
+#container{
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.start {
+	float: left;
+	background-color: #ff0000;
+	border-radius: 50% 0 0 50% ;
+}
+.path{
+	float: left;
+}
+
+.end{
+	float: right;
+	background-color: #0000ff;
+	border-radius: 0 50% 50% 0;
+}
+
+.game_container {
+	margin: auto;
+}
+
+/* Level 1 path */
+
+#game_container_lvl1 {
+	width:400px;
+}
+.lvl1{
+	height:50px;
+}
+.start.lvl1{
+	width: 50px;
+}
+.path.lvl1{
+	width:300px;
+	background-color: #fff;
+}
+.end.lvl1{
+	width:50px;
+}
+
+/* Level 2 path */
+
+#game_container_lvl2 {
+	width:700px;
+}
+.lvl2{
+	height:40px;
+}
+.start.lvl2{
+	width: 50px;
+}
+.path.lvl2{
+	width:600px;
+	background-color: #fff;
+}
+.end.lvl2{
+	width:50px;
+}
+
+/* Level 3 path */
+
+#game_container_lvl3 {
+	width:800px;
+}
+.lvl3{
+	height:20px;
+}
+.start.lvl3{
+	width: 30px;
+}
+.path.lvl3{
+	width:740px;
+	background-color: #fff;
+}
+.end.lvl3{
+	width:30px;
+}
+
+/* Level 4 path */
+
+#game_container_lvl4 {
+	width:700px;
+}
+.lvl4{
+	height:10px;
+}
+.start.lvl4{
+	width: 20px;
+}
+.path.lvl4{
+	width:660px;
+	background-color: #fff;
+}
+.end.lvl4{
+	width:20px;
+}
+
+/* Level 5 path */
+
+#game_container_lvl5 {
+	width:550px;
+}
+.lvl5{
+	height:15px;
+}
+.start.lvl5{
+	width: 25px;
+}
+.path.lvl5{
+	width:500px;
+}
+.end.lvl5{
+	width:25px;
+}
+
+/* Level 6 path */
+
+#game_container_lvl6 {
+	width:650px;
+}
+.lvl6{
+	height:10px;
+}
+.start.lvl6{
+	width: 25px;
+}
+.path.lvl6{
+	width:600px;
+}
+.end.lvl6{
+	width:25px;
+}
+
+/* Level 7 path */
+
+#game_container_lvl7 {
+	width:500px;
+	cursor: none;
+}
+.lvl7{
+	height:20px;
+}
+.start.lvl7{
+	width: 20px;
+}
+.path.lvl7{
+	width:460px;
+	background-color: #fff;
+}
+.end.lvl7{
+	width:20px;
+}
+
+/* Level 8 path */
+
+#game_container_lvl8 {
+	width:500px;
+	cursor: none;
+}
+.lvl8{
+	height:10px;
+}
+.start.lvl8{
+	width: 20px;
+}
+.path.lvl8{
+	width:460px;
+	background-color: #fff;
+}
+.end.lvl8{
+	width:20px;
+}
+/* Level 9 path */
+
+#game_container_lvl9 {
+	width:700px;
+	cursor: none;
+}
+.lvl9{
+	height:5px;
+}
+.start.lvl9{
+	width: 15px;
+}
+.path.lvl9{
+	width:670px;
+}
+.end.lvl9{
+	width:15px;
+}
+
+
+
+
+
+
