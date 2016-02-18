@@ -1,0 +1,159 @@
+body{
+	margin: 0px;
+	background-color: #1a1a1a;
+	text-align: center;
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; 
+	overflow: hidden;
+
+}
+#start_page{
+	margin: 70px auto;
+}
+#start_page h1 {
+   font-size: 50px;
+   letter-spacing: 5px;
+   margin-bottom: 5px;
+   color: #ffff80;
+}
+#start_page p {
+	font-size: 30px;
+	color: #ffff80;
+	letter-spacing: 2px;
+}
+#start_button {
+	height: 70px;
+	width:200px;
+	border :none;
+	border-radius: 5px;
+	background-color: #3366ff;
+	color: #fff;
+	font-size: 30px;
+	margin-top: 50px;
+	letter-spacing: 3px;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 0px 0px 10px 1px #ccd9ff;
+}
+#fail {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    background-color: #BD000C;
+    z-index: 0;
+}
+
+#game_page{
+	margin: 0px;
+	display: none;
+	
+}
+#level {
+	position: relative;
+	height: 50px;
+	margin-top: 30px;
+	font-size: 30px;
+	color :#ffff80;
+	display: inline-block;
+	text-align: center;	
+}
+#game_wrap{
+	margin: 20px auto;
+	position: relative;
+	width:500px;
+	height:500px;
+}
+#game_container{
+	height: 500px;
+	width:500px;
+	border-radius: 50%;
+	background-color: black;
+	z-index: 1px;
+}
+.shape2{
+	height: 210px;
+	width: 210px;
+	border-radius: 0px 400px 0px 0px ;
+	background-color: #ff0000;
+	position: absolute;
+	top:28px;
+	right:28px;
+	z-index: 1px;
+	cursor: pointer;
+	
+}
+.shape1{
+	height: 210px;
+	width: 210px;
+	border-radius: 400px 0px 0px 0px ;
+	background-color: #009933;
+	position: absolute;
+	top:28px;
+	left:28px;
+	z-index: 1px;
+	cursor: pointer;
+	
+	
+}
+.shape4{
+	height: 210px;
+	width: 210px;
+	border-radius: 0px 0px 400px 0px ;
+	background-color: #3366ff;
+	position: absolute;
+	bottom:28px;
+	right:28px;
+	z-index: 1px;
+	cursor: pointer;
+	
+}
+.shape3{
+	height: 210px;
+	width: 210px;
+	border-radius: 0px 0px 0px 400px ;
+	background-color: #ffff1a;
+	position: absolute;
+	bottom:28px;
+	left:28px;
+	z-index: 1px;
+	cursor: pointer;
+	
+}
+#center_circle{
+	height:200px;
+	width:200px;
+	position: relative;
+	margin: auto;
+	top: 150px;
+	border-radius: 50%;
+	background-color: black;
+
+}
+
+.glow_red {
+	box-shadow: 0 0 20px rgba(245,102,114,0.7);
+	background-color: #ffad99;
+}
+
+.glow_green {
+	box-shadow: 0 0 20px rgba(89,207,81,0.7);
+	background-color: #80ff80;
+}
+
+.glow_yellow {
+	box-shadow: 0 0 20px rgba(255,223,113,0.7);
+	background-color: #ffffb3;
+}
+
+.glow_blue {
+	box-shadow: 0 0 20px rgba(106,143,232,0.7);
+	background-color: #99c2ff;
+}
+
+
+
+
+
+
