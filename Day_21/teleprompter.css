@@ -1,0 +1,49 @@
+body{
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif !important;	
+	text-align: center;
+	overflow-y: hidden;
+	letter-spacing: 2px;
+	
+	
+}
+
+ul {
+	float:right !important;
+}
+
+li{
+	width: 150px;
+}
+
+a {
+	font-size: 18px;
+}
+
+
+p{
+	font-size: 25px;
+}
+.form-control{
+	width: 600px !important;
+	height: 350px !important;
+	margin: 20px auto;
+	}
+
+.btn{
+	height: 50px !important;
+	font-size: 15px !important;
+}
+
+
+#teleprompt_screen {
+	position: absolute;
+	top: 0;
+	padding: 150px 100px;
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 60px;
+	line-height: 1.7;
+	text-align: left;
+	color: #fafaff;
+	text-shadow: 0 0 5px #5d5dff, 0 0 3px #5d5dff, 0 0 2px #1c1c52, 0 0 1px #000, 0 0 1px #000;
+	z-index: -10;
+}
