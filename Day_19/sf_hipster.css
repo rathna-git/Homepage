@@ -1,0 +1,69 @@
+body{
+	background-color:  #fff5cc !important;
+	margin: 0 auto;
+	font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif !important;
+
+}
+#instruction{
+	min-width: 100%;
+	height:100px;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 1px #a6a6a6;
+}
+#instruction h1 {
+	font-size: 30px;
+}
+#instruction p {
+	font-size: 18px;
+}
+
+#container{
+	margin-top: 40px;
+	margin-left:40px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.qbox {
+	height:35px;
+	width:550px;
+	z-index: 1px;
+	background-color: #ffcd00 !important;
+	padding: 5px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 2px 2px #a6a6a6;
+
+}
+.radio{
+	margin-left: 20px;
+}
+
+#button{
+	margin-top: 40px;
+	width: 150px;
+	font-size: 20px ;
+}
+
+#score {
+	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	margin-right: 60px;
+}
+
+#message {
+	text-align: center;
+	margin-top: 30px;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	font-size: 30px;
+	margin-right: 60px;
+}
+
+	
+
+
