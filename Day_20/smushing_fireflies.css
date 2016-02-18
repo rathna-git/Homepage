@@ -1,0 +1,130 @@
+body{
+	background-color: black;
+
+}
+
+#container {
+	height: 700px;
+	min-width: 100%;
+}
+
+.drop {
+	position: absolute;
+	-webkit-animation: grow 2s;
+	-moz-animation: grow 2s;
+	-o-animation: grow 2s;
+	-ms-animation: grow 2s;
+	animation: grow 2s;
+
+}
+
+
+.color0 {
+	height: 50px;
+	width: 50px;
+}
+.color1 {
+	height: 10px;
+	width: 10px;
+}
+.color2 {
+	height: 20px;
+	width: 20px;
+}
+.color3 {
+	height: 5px;
+	width: 5px;
+}
+.color4 {
+	height: 30px;
+	width: 30px;
+}
+.color5 {
+	height: 15px;
+	width: 15px;
+}
+
+.color6 {
+	height: 50px;
+	width: 50px;
+}
+.color7 {
+	height: 10px;
+	width: 10px;
+}
+.color8 {
+	height: 20px;
+	width: 20px;
+}
+.color9 {
+	height: 5px;
+	width: 5px;
+}
+.color10 {
+	height: 30px;
+	width: 30px;
+}
+.color11 {
+	height: 15px;
+	width: 15px;
+}
+
+.color12 {
+	height: 50px;
+	width: 50px;
+}
+.color13 {
+	height: 10px;
+	width: 10px;
+}
+.color14 {
+	height: 20px;
+	width: 20px;
+}
+.color15 {
+	height: 5px;
+	width: 5px;
+}
+.color16 {
+	height: 30px;
+	width: 30px;
+}
+.color17 {
+	height: 15px;
+	width: 15px;
+}
+.color18 {
+	height: 50px;
+	width: 50px;
+}
+.color19 {
+	height: 10px;
+	width: 10px;
+}
+.color20 {
+	height: 20px;
+	width: 20px;
+}
+
+@-webkit-keyframes grow {
+	0% { -webkit-transform: scale(1); opacity: 1;}
+	100% { -webkit-transform: scale(5); opacity: 0;}
+}
+@-o-keyframes grow {
+	0% { -o-transform: scale(1); opacity: 1;}
+	100% { -o-transform: scale(5); opacity: 0;}
+}
+@-moz-keyframes grow {
+	0% { -moz-transform: scale(1); opacity: 1;}
+	100% { -moz-transform: scale(5); opacity: 0;}
+}
+@-ms-keyframes grow {
+	0% { -ms-transform: scale(1); opacity: 1;}
+	100% { -ms-transform: scale(5); opacity: 0;}
+}
+@keyframes grow {
+	0% { transform: scale(1); opacity: 1;}
+	100% { transform: scale(5); opacity: 0;}
+}
+
+
