@@ -1,0 +1,203 @@
+body{
+	margin: 0px;
+	background-color: #e6e6e6;
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; 
+	overflow: hidden;
+}
+#button_container{
+	height: 250px;
+	width: 190px;
+	position: absolute;
+	top:50px;
+	left:50px;
+}
+.button {
+	height:50px;
+	width:180px;
+	position: absolute;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 50px;
+	background-color: #999999;
+	color :#333333;
+	border: none;
+	outline: none;
+}
+.button:active {
+	background-color: #333333;
+	color: #999999;
+}
+#water{
+	top:10px;
+	left:2px;	
+}
+#hearts{
+    top:80px;
+	left:2px;	
+}
+#cupcakes{
+	top:150px;
+	left:2px;	
+}
+#cloud_container{
+	position: relative;
+	margin: auto;
+    top:50px;	
+	height: 200px;
+	width: 400px;
+}
+#cloud {
+	height:120px;
+	width:350px;
+	position: relative;
+	border-radius: 100px;
+	margin: auto;
+    top: 60px;
+    background: #999999; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top,#737373, #bfbfbf); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top, #737373, #bfbfbf); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,#737373, #bfbfbf); /*Fx 3.6-15*/
+    background: linear-gradient(to top, #737373,  #bfbfbf); /*Standard*/
+
+    box-shadow: 2px 3px 2px  #a6a6a6;
+}
+#cloud:after {
+	content: '';
+	height:190px;
+	width:190px;
+	z-index: -1;
+	position: absolute;
+	border-radius: 100px;
+	background-color: #bfbfbf;
+	top: -90px;
+	right:45px;
+	box-shadow: 2px 3px 2px 0px #a6a6a6;
+}
+#cloud:before {
+	content: '';
+	height:110px;
+	width:110px;
+	z-index: -1;
+	position: absolute;
+	border-radius: 200px;
+	background-color: #bfbfbf;
+	top: -50px;
+	left :45px;
+	box-shadow: 1px 1px 1px 1px #a6a6a6;
+}
+#drop_container{
+	position: absolute;
+	top: 40px;
+	left:30px;
+}
+.drop {
+	position: relative;
+	top: -50px;
+    z-index: -1;
+}
+
+.rain{
+	height: 25px;
+	width:25px;
+	background-color: #0077b3;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	box-shadow: 1px 2px 2px 0px #a6a6a6;
+	position: absolute;
+	top :100px;
+	left: 30px;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+
+.heart {
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    left:50px;
+    
+}
+ .heart:before,
+ .heart:after {
+    position: absolute;
+    content: "";
+    left: 15px;
+    top:85px;
+    width: 15px;
+    height: 25px;
+    background: #ff0066;
+
+    
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.heart:after {
+    left: 0;
+    box-shadow: 3px -1px 3px 0px #a6a6a6;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+.cupcake {
+	height:40px;
+	width: 40px;
+	position: absolute;
+	top:30px;
+	
+
+}
+.animate {
+	-webkit-animation: fall 4.5s infinite ease-in;	
+	-moz-animation: fall 4.5s infinite ease-in;	
+	-ms-animation: fall 4.5s infinite ease-in;	
+	-0-animation: fall 4.5s infinite ease-in;	
+	animation: fall 4.5s infinite ease-in;	
+}
+
+@-webkit-keyframes fall {
+	0% {top: 60px;}
+	97% {opacity: 1}
+	100% {top: 1500px; opacity: 0}
+}
+@-moz-keyframes fall {
+	0% {top: 60px;}
+	97% {opacity: 1}
+	100% {top: 1500px; opacity: 0}
+}
+@-ms-keyframes fall {
+	0% {top: 60px;}
+	97% {opacity: 1}
+	100% {top: 1500px; opacity: 0}
+}
+@-o-keyframes fall {
+	0% {top: 60px;}
+	97% {opacity: 1}
+	100% {top: 1500px; opacity: 0}
+}
+@-keyframes fall {
+	0% {top: 60px;}
+	97% {opacity: 1}
+	100% {top: 1500px; opacity: 0}
+}
+
