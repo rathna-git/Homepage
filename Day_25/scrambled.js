@@ -82,7 +82,6 @@ function RandomWord() {
             type: 'GET',
             url: 'http://randomword.setgetgo.com/get.php',
             async: false,
-            len: 5,
             success: function(data){
             	console.log(data);
             	    array = data;
