@@ -12,10 +12,10 @@ $(document).ready(function() {
          $('#message_cloud').show();
          $('#dog_container').addClass('jump');
          $('#mouth').css({ "background-color":"#ab0014", "height":"15px", "border-radius": "50px"});
-         
+  
          document.getElementById('sound').innerHTML="<audio autoplay><source src='audio/woof.mp3' type='audio/mpeg'></audio>";
          setTimeout(function () {
-			$('#message_cloud').fadeOut('600');
+			$('#message_cloud').fadeOut(600);
 			$('#dog_container').removeClass('jump');
 			$('#mouth').css({ "background-color":"#333333", "height":"4px", "border-radius": "none"});
 		}, 3000);
@@ -47,7 +47,7 @@ $(document).ready(function() {
 	};
 
 	function replaceFood() {
-		$('.bone_container').css({top: 550, left: 600,});
+		$('.bone_container').css({top: 550, left: 600});
 		$('.bone_container').show();
 	}
 });
