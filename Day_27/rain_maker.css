@@ -104,8 +104,9 @@ body{
 	border-bottom-left-radius: 100px;
 	border-bottom-right-radius: 100px;
 	box-shadow: 1px 2px 2px 0px #a6a6a6;
-	position: relative;
-	z-index: 30px;
+	position: absolute;
+ 	top :100px;
+ 	left: 30px;
 	
     -webkit-transform: rotate(-45deg);
        -moz-transform: rotate(-45deg);
