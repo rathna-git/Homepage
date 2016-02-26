@@ -1,0 +1,121 @@
+body{
+	text-align: center;
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; 
+	background: #e6ffff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(bottom , #ffe5cc ,#e6ffff); /*Safari 5.1-6*/
+    background: -o-linear-gradient(bottom #ffe5cc, #e6ffff); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(bottom #ffe5cc,#e6ffff); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom #ffe5cc, #e6ffff); /*Standard*/ 
+    
+}
+#main{
+	height: 700px;
+	min-width: 100%;
+}
+ header {
+	font-size:20px;
+	color:#000066;
+    text-shadow: 1px 1px 1px #cccccc;
+    padding: 2px 15px;
+    letter-spacing: 2px;
+    text-align: left;    
+}
+
+
+#word_container{
+	position: relative;
+	margin: 60px auto;
+	width:750px;
+	height: 80px;
+	font-size:65px;
+	padding: 50px 0;
+	color: #000066;
+	border:1px solid #d9d9d9;
+	background: #ffffff;
+    box-shadow: inset 1px 1px 70px 10px #f2f2f2, 0 0 1px rgba(0,0,0,0.2);
+}
+#word_container:before, #word_container:after{
+	position: absolute;
+	content: ' ';
+	width:40%;
+	height: 10px;
+	background: transparent;
+	box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+	z-index:-1;
+	bottom:12px;
+	left:12px;
+
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: skew(-5deg) rotate(-5deg);
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+
+}
+#word_container:after{
+	position: absolute;
+	right:12px;
+	left: auto;
+	
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+}
+
+
+.button{
+    height: 120px;
+	width:120px;
+	border-radius: 999px;
+	color: #fff;
+	font-size:22px;
+	outline: none;
+	cursor: pointer;
+	box-shadow: 2px 2px 2px  #a6a6a6, inset 1px 1px 2px rgba(255,255,255,0.3), inset -1px -1px 1px rgba(0,0,0,0.5);
+}
+
+
+.start{
+	background-color: #006600;
+	border:10px solid #00b300  ;
+}
+.stop {
+	background-color: #660000;
+	border:10px solid #cc0000 ;
+}
+.start:active{
+	background-color: #00b300;
+	border:10px solid #00b300 ;
+	box-shadow: inset -1px -1px 2px rgba(255,255,255,0.3),inset 1px 1px 1px rgba(0,0,0,0.5), 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.stop:active{
+	background-color: #cc0000;
+	border:10px solid #cc0000 ;
+	box-shadow: inset -1px -1px 2px rgba(255,255,255,0.3),inset 1px 1px 1px rgba(0,0,0,0.5), 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
