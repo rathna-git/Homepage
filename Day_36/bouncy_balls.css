@@ -1,0 +1,51 @@
+body{
+	font-family: Consolas, monaco, monospace;	
+	overflow: hidden;
+	margin: 0px;
+	background-color: #333333;
+}
+header{
+	position: fixed; 
+	width:100%;
+	
+	padding: 20px;
+}
+#btn_container{
+   float: left;
+   display: block;
+   width:150px;   
+}
+button{
+	background-color: #333333;
+	height:40px;
+	width:50px;
+	font-size:20px;
+    color: #808080;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.solid {
+	float: left;
+}
+.blink{
+	float: right;
+}
+button:hover, button:focus{ 
+	color: #d9d9d9; 
+}
+#links_container{
+	float: right;
+	padding-right: 35px;		
+}
+a{
+	text-decoration: none;
+	padding-right: 20px;
+	font-size: 20px;
+	color:#808080;
+	cursor: pointer;
+}
+a:hover, a:focus{ 
+	color: #d9d9d9; 
+}
+
