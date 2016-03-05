@@ -1,0 +1,221 @@
+body{
+	background-color: #DDF2F2;
+	text-align: center;
+	
+	font-family:'Dancing Script', arial,san-serif;   
+}
+
+#title{
+   font-size: 30px;
+   padding-top:10px;
+}
+#color_palette{
+	position: absolute;
+	top:80px;
+	left:20px;
+	height: 600px;
+	width:200px;
+	border: 1px solid #333;
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+	cursor: pointer;
+}
+#color_picker{
+	position: relative;
+	top:5px;
+	left:8px;
+	height: 200px;
+	width:180px;
+	border: 1px solid #333;
+}
+.box{
+	height:30px;
+	width:30px;
+	position: absolute;
+	border: 1px solid #333;
+}
+#c1{
+	top: 30px;
+	left:12px;
+	background-color: black;
+}
+#c2{
+	top:30px;
+	left: 50px;
+	background-color:  #996633;
+}
+#c3{
+	top:30px;
+	left: 87px;
+	background-color: red;
+}
+#c4{
+	top:30px;
+	left: 125px;
+	background-color: blue;
+}
+#c5{
+	top:70px;
+	left: 12px;
+	background-color: green;
+}
+#c6{
+	top:70px;
+	left: 50px;
+	background-color: brown;
+}
+#c7{
+	top:70px;
+	left: 87px;
+	background-color: gray;
+}
+#c8{
+	top:70px;
+	left: 125px;
+	background-color: #ff66cc;
+}
+#c9{
+	top:110px;
+	left:12px;
+	background-color: #ff6600;
+}
+#c10{
+	top:110px;
+	left:50px;
+	background-color: #9999ff;
+}
+#c11{
+	top:110px;
+	left:87px;
+	background-color: #00ffff;
+}
+#c12{
+	top:110px;
+	left:125px;
+	background-color: #ffff66;
+}
+#c13{
+	top:150px;
+	left:12px;
+	background-color: #66ff66;
+}
+#c14{
+	top:150px;
+	left:50px;
+	background-color: #cccc00;
+}
+#c15{
+	top:150px;
+	left:87px;
+	background-color: #999999;
+}
+#c16{
+	top:150px;
+	left:125px;
+	background-color: #cc3399;
+}
+
+#sizes {
+	position: relative;
+	top: 11px;
+	left:8px;
+	height: 100px;
+	width:180px;
+	border: 1px solid #333;
+
+}
+#small{
+	height:15px;
+	width:15px;
+	position: absolute;
+	top:50px;
+	left:22px;
+	background-color: #333;
+	border-radius: 50%;
+
+}
+#normal{
+	height:20px;
+	width:20px;
+	position: absolute;
+	top:47px;
+	left:50px;
+	background-color: #333;
+	border-radius: 50%;
+}
+#large{
+	height:30px;
+	width:30px;
+	position: absolute;
+	top:43px;
+	left:82px;
+	background-color: #333;
+	border-radius: 50%;
+}
+#huge{
+	height:40px;
+	width:40px;
+	position: absolute;
+	top:38px;
+	left:125px;
+	background-color: #333;
+	border-radius: 50%;
+}
+#tools{
+	position: relative;
+	top:18px;
+	left:8px;
+	height: 200px;
+	width:180px;
+	border: 1px solid #333;
+}
+#crayon {
+	position: absolute;
+	height:60px;
+	width:90px;
+	top:50px;
+	left:10px;
+
+}
+#marker {
+	position: absolute;
+	height:60px;
+	width:90px;
+	top:50px;
+	left:90px;
+
+	-webkit-transform: rotate(110deg);
+	-moz-transform: rotate(110deg);
+	-ms-transform: rotate(110deg);
+	-o-transform: rotate(110deg);
+	transform: rotate(110deg);
+}
+#eraser {
+	position: absolute;
+	height:40px;
+	width:60px;
+	top:120px;
+	left:60px;
+}
+#clear_canvas{
+	position: relative;
+	top:25px;	
+}
+
+button{
+	position: relative;
+	padding:20px 30px;
+	background-color: #3366ff;
+	font-size:15px;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+#canvas{
+	background-color: #fff;
+	margin-top: 20px;
+	padding: 5px;
+}
+

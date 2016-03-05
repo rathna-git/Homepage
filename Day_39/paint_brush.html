@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paint Brush | Rathna Ganjigunta</title>
+	<link rel="stylesheet" href="paint_brush.css">
+	<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+	<div id="title">Paint Brush</div>
+</header>
+<div id= "color_palette">
+    <div id="color_picker">
+    	<div id="color">Color:</div>
+    	<div class = "box" id="c1"></div>
+    	<div class = "box" id="c2"></div>
+    	<div class = "box" id="c3"></div>
+    	<div class = "box" id="c4"></div>
+    	<div class = "box" id="c5"></div>
+    	<div class = "box" id="c6"></div>
+    	<div class = "box" id="c7"></div>
+    	<div class = "box" id="c8"></div>
+    	<div class = "box" id="c9"></div>
+    	<div class = "box" id="c10"></div>
+    	<div class = "box" id="c11"></div>
+    	<div class = "box" id="c12"></div>
+    	<div class = "box" id="c13"></div>
+    	<div class = "box" id="c14"></div>
+    	<div class = "box" id="c15"></div>
+    	<div class = "box" id="c16"></div>
+    </div>
+	<div id="sizes">
+	    <div id = "brush">Brush Size:</div>
+		<div class = "brush_size" id="small"></div>
+		<div class = "brush_size" id="normal"></div>
+		<div class = "brush_size" id="large"></div>
+		<div class = "brush_size" id="huge"></div>
+	</div>
+	<div id="tools">
+	    <div id = "tool">Tools:</div>
+		<img class = "tool_pick" id ="crayon" src="images/crayon1.png">
+		<img class = "tool_pick" id ="marker" src="images/marker.png">
+		<img class = "tool_pick" id ="eraser" src="images/eraser.png">
+	</div>
+	<div id= "clear_canvas"><button id="clear_all">Clear Canvas</button></div>
+</div>
+<canvas id ="canvas" height=600 width=900 ></canvas>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="paint_brush.js"></script>
+</body>
+</html>
