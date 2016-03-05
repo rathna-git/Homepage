@@ -1,0 +1,76 @@
+body{
+	font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD, Georgia, serif;
+	text-align: center;
+	margin: 0px;
+}
+#start_page{
+	position: relative;
+	top:100px;
+}
+h1 {
+	font-size:40px;
+	padding: 30px;
+}
+h3{
+	font-size:25px;
+	letter-spacing: 2px;
+}
+#game_container{
+    display: none;
+	height:100%;
+	width:100%;	
+}
+#score_bar{
+	position: relative;
+    display: inline-block;
+	height: 50px;
+	min-width:100%;
+	border-top:1px solid #4d4d4d;
+	border-bottom: 1px solid #4d4d4d;
+	background-color: #d9d9d9;
+	padding: 20px;
+}
+.score{
+	float: left;
+	position: absolute;
+	font-size:30px;
+	display: block;
+	padding: 12px;
+	color: #4d4d4d;
+}
+#correct{
+	left:420px;
+}
+#wrong{
+	left:600px;
+}
+#missed{
+	left:780px;
+}
+#modal{
+	display: none;
+	height: 100%;
+	width: 100%;
+}
+#modal h1 {
+	font-size: 50px;
+	position: relative;
+	padding:10px;
+	top:130px;
+}
+h2{ 
+	position: relative;
+	top:130px;
+	font-size: 30px;
+}
+#perc {
+	font-size: 50px;
+}
+
+a{ 
+	position: relative;
+	top: 200px;
+	font-size: 25px;
+	color:#00cc66;
+	text-decoration: none;
+}
