@@ -1,0 +1,121 @@
+body{
+	background-color: #1a1a1a;
+	font-family: monaco, Consolas, Lucida Console, monospace;
+	text-align: center;
+	margin: 0px;
+	letter-spacing: 2px;
+}
+header{
+	
+	padding: 20px;
+}
+#title{
+	position: absolute;
+	left:10px;
+	top: 0px;
+	color: #00cc44;
+	font-size: 35px;
+}
+#links_container{
+	position: absolute;
+	right:10px;
+	top:5px;
+	padding: 10px;
+}
+header a{
+	text-decoration: none;
+	color: #595959;
+	font-size: 25px;
+	padding: 10px;
+}
+#info_btn{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	height: 40px;
+	width: 40px;
+	background-color: #1a1a1a;
+	outline: none;
+	font-size: 20px;
+	color:#00cc44;
+	cursor: pointer;
+	border: none;
+}
+
+.modal{
+    
+	background-color: rgba(64, 64, 64, 0.1);	
+	position: relative;
+	z-index: 10;
+	color: #eee;
+	top:140px;
+	left:300px;
+
+
+}
+#info{
+	display: none;
+	position: fixed;
+	height: 350px;
+	width:720px;
+}
+#game_over{
+	display: none;
+	position: absolute;
+	top:200px;
+	left:435px;
+	background-color: #1a1a1a;
+	margin: auto;
+	height: 150px;
+	width:500px;
+}
+
+#game_over a {
+	font-size: 20px;
+	color: #00cc44;
+	text-decoration: none;
+	padding: 5px;
+
+}
+#close_btn{
+	position: absolute;
+	right:5px;
+	top:5px;
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+	color: #00cc44;
+	background-color: rgba(64, 64, 64, 0.1);
+	outline: none; 
+	border: none;
+	cursor: pointer;
+}
+#instructions{
+	position: absolute;
+	margin-top: 50px;
+	padding: 15px;
+}
+
+#game_container{
+	position: relative;
+	margin: 30px auto;
+	height: 600px;
+	width:400px;
+}
+#canvas{
+	border : 2px solid #00cc44;
+}
+#level{
+	color: #eee;
+	font-size: 20px;
+	color :#00cc44;
+}
+
+
+
+
+
+
+
+
+

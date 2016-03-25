@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake Game | Rathna Ganjigunta</title>
+	<link rel="stylesheet" type="text/css" href="snake_game.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!-- script src ="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script -->
+	<script src ="https://jenniferdewalt.com/js/underscore.js"></script>
+
+	<script src="snake_game.js"></script>
+</head>
+<body id = "snake_game">
+<header>
+	<a href ="snake_game.html" id = "title">Snake</a>
+	<div id="links_container">
+		<a href="homepage.html" id="home">Home</a>
+		<a href="http://www.rathna.ganjigunta/tumblr" id="blog">Blog</a>
+	</div>
+	<br class= "clear">
+</header>
+
+<div class="modal" id="game_over">
+	<h1>Game Over</h1>
+	<button id="index_btn"><a href="snake_game.html">Try Again?</a></button>
+</div>
+
+<div class="modal" id="info">
+   <button id="close_btn">X</button>
+   <div id="instructions">
+		<h2> Use the arrow keys to control the snake.</h2>
+		<h2> Eat all of the green blobs to advance to the next level.</h2>
+		<h2> Don't eat yourself or smash into the walls.</h2>
+		<h2>Like life, there is no pause button.</h2>
+   </div>
+</div>
+
+<div id="game_container">
+	<canvas id= "canvas" height="500" width="400"></canvas>
+	<div id="level">Level: 1</div>
+</div>
+
+<button id="info_btn">?</button>
+
+<!--Audio-->
+<audio id="main_music" loop>
+  <source src="audio/main.mp3" type="audio/mp3" />
+  <source src="audio/main.ogg" type="audio/ogg" />
+</audio>
+
+<audio id="gameOver">
+  <source src="audio/go.mp3" type="audio/mp3" />
+  <source src="audio/go.ogg" type="audio/ogg" />
+</audio>
+
+<audio id="food">
+  <source src="audio/food.mp3" type="audio/mp3" />
+  <source src="audio/food.ogg" type="audio/ogg" />
+</audio>
+
+
+
+</body>
+</html>
