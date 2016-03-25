@@ -1,0 +1,71 @@
+body{
+	text-align: center;
+}
+
+.modal{
+	position: fixed;
+	top: 120px;
+	left: 34%;
+	height:300px;
+	width:450px;
+	background-color: #e6e6e6;
+}
+
+#info h1 {
+	font-size: 60px;
+	color: #0033cc;
+	margin: 40px;
+
+}
+#info h3{
+	font-size: 20px;
+	color: #0033cc;
+}
+#start_btn{
+	padding: 15px;
+	background-color: #ff3333;
+	font-size: 25px;
+	color:#fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+#game_over{
+	display: none;
+}
+
+#win{
+	display: none;
+}
+
+ h2{
+	font-size: 55px;
+	color:#0033cc;
+	margin: 40px;
+}
+
+ a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #00cc00;
+}
+ a:hover{
+	color:  #003300;
+}
+
+#game_container{
+
+	margin-top: 40px;
+
+}
+
+
+#canvas{
+	border: 1px solid black;
+	
+}
+
+#score{
+	font-size: 30px;
+
+}

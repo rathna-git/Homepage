@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PONG | Rathna Ganjigunta</title>
+	<link rel="stylesheet" type="text/css" href="pong.css">
+</head>
+<body>
+
+<div class = "modal" id ="info">
+	<h1>PONG</h1>
+	<h3>Move your mouse to keep the ball alive with your twin paddles.</h3>
+	<button id="start_btn">Start</button>
+</div>
+
+<div class = "modal" id="game_over">
+	<h2>GAME OVER!</h2>
+	<a href="pong.html">Try Again?</a>
+</div>
+
+<div class = "modal" id="win">
+	<h2>YOU WON!</h2>
+	<a href="pong.html">Play Again?</a>
+</div>
+
+<div id = "game_container">
+	<canvas id ="canvas" width="550" height="450"></canvas>
+	<div id="score">Score: 0</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="pong.js"></script>
+</body>
+</html>
