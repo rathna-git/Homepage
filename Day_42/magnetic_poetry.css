@@ -1,0 +1,26 @@
+body{
+	background-color: #FCAAC0;
+	font-family: Consolas, monaco, monospace;
+}
+#handle_container{
+	position: relative;
+	top:200px;
+	left:60px;
+}
+#magnet_container{
+	height:200px;
+	width:900px;
+	position: relative;
+	top:150px;
+	left:250px;
+}
+.magnet{
+    position: absolute;
+	padding:5px 10px;
+	background-color: #fff;
+	border: 1px solid #333;
+	text-align: center;
+	color: #333;
+	box-shadow: 2px 2px 2px #333;
+	cursor: pointer;
+}
