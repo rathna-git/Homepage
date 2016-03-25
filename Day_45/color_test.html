@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Perception Test | Rathna Ganjigunta</title>
+	<link rel="stylesheet" type="text/css" href="color_test.css">
+</head>
+<body>
+
+<div class="modal" id ="game-info">
+    <button id="close">X</button>
+	    <div id="instructions">
+			<h1> Your mission is to make the box on the right the exact same color as the box on the left.</h1>
+			<h2> Inside the box on the right: </h2>
+			<h3> Move your mouse left to right to adjust hue.</h3>
+			<h3> Move your mouse up or down to adjust the lightness.</h3>
+			<h3> Scroll up and down to adjust saturation.</h3>
+			<h3> Click to submit. </h3>
+		</div>
+</div>
+
+<div class="modal" id="win">
+<h1>Perfect!</h1>
+<h2></h2>
+<button id="replay"><a href="color_test.html">Next Color</a></button>
+</div>
+
+<div id="main">
+   <h1> Color Perception Test </h1>
+	<div id="game_container">
+		<div class="color-box" id ="game-box"></div>
+		<div class="color-box" id = "user-box"></div>
+		<div id="stats_container">
+			<h2 id="message"></h2>			
+				<h3 id="hue"></h3>
+				<h3 id="sat"></h3>
+				<h3 id="lit"></h3>				
+		</div>
+	</div>
+	<button id = "game_rules">?</button>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="color_test.js"></script>
+</body>
+</html>

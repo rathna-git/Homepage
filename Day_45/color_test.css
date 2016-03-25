@@ -1,0 +1,133 @@
+body{
+	background-color: #f2f2f2;
+	text-align: center;
+	font-family: monaco, Consolas, Lucida Console, monospace;
+	height: 3800px;
+}
+
+.modal {	
+	position: fixed;
+	background-color: #262626;
+	text-align: center;
+	
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	color: #eee;
+}
+#game-info{
+  display: none;
+}
+#win {
+	display:none;
+}
+#close{
+	position: fixed;
+	top:10px;
+	right:10px;
+	height: 40px;
+	width:40px;
+	font-size: 20px;
+	color: #33ccff;
+	background-color: #262626;
+	outline: none;
+	cursor: pointer;
+}
+#instructions{
+	position: relative;
+	height: 600px;
+	width:850px;
+	margin: 80px auto;
+}
+#instructions h2{
+	margin-top: 50px;
+	color:#33ccff;
+	font-size: 35px;
+	text-align: left;
+}
+#instructions h3{
+	font-size: 25px;
+	text-align: left;
+}
+
+#main h1{
+  position: fixed;
+  margin: 10px 350px;
+  font-size: 52px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#game_container{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right:0;
+}
+
+.color-box{
+	display: inline-block;
+	height:300px;
+	width:300px;
+	margin : 150px 30px 0;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: black;
+}
+#game-box{
+	left:50%;
+	cursor: none;
+}
+
+#user-box{	
+	cursor: crosshair;
+	right:50%;
+}
+
+#game_rules{
+	position: fixed;
+	bottom:10px;
+	left:10px;
+	height: 40px;
+	width: 40px;
+	font-size: 25px;
+	background-color: #262626;
+	color:#33ccff;
+	cursor: pointer;
+	outline: none;
+}
+
+#stats_container{
+
+	margin: 20px auto;
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+}
+
+#stats_container h2{
+	color:#33ccff;
+	margin: 10px;
+}
+#stats_container h3{
+  margin: 5px;
+}
+
+#win h1{
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 40px;
+}
+
+#replay{
+	margin: 20px auto;
+	padding: 20px;
+	outline: none;
+}
+#replay a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #333;
+}
