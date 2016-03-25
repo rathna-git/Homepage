@@ -1,0 +1,65 @@
+body{
+	background-color: #303030;
+	margin: 0px;
+	text-align: center;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+	color: #eee;
+}
+
+.modal {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #303030;
+    color: #eee;	
+}
+h1 {
+	font-size: 40px;
+	margin: 60px;
+}
+h2{
+   font-size: 25px;
+   margin: 40px;
+}
+#start_btn{
+	padding: 10px 30px;
+	margin: 60px auto;
+	font-size: 25px;
+	cursor: pointer;
+}
+#info_container{
+	padding: 20px;
+	font-size: 15px;
+}
+.message {
+    display: none;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    font-size: 40px;
+}
+
+canvas{
+   border: 1px solid #006600;
+}
+#btn_container {
+	width:480px;
+	margin: 20px auto;
+}
+.guess{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	width:40px;
+	text-align: center;
+	background-color: #aaa;
+	color: #202020;
+	margin: 2px;
+	cursor: pointer;
+}
+.guess:active {
+	background-color: #888;
+}
+

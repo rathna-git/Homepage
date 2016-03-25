@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seeing Spots | Rathna Ganjigunta</title>
+	<link rel="stylesheet" type="text/css" href="seeing_spots.css">
+</head>
+<body>
+	<div id="seeing_spots">
+		<div class="modal" id="start_modal">
+			<h1>Seeing Spots</h1>
+			<h2>How many spots can you see at the same time ?</h2>
+			<h2>Click the button that corresponds to the number of spots you see.</h2>
+			<button id="start_btn">Start!</button>
+		</div>
+		<div id = "game_container">
+		  <div id="info_container">
+				<div id ="rounds_left">Rounds remaining: 29</div>
+				<div id= "score">Not enough data yet.</div>
+          </div>
+
+		    <div class="message" id="correct">Correct</div>
+		    <div class="message" id="incorrect">Incorrect</div>
+
+			<canvas id="canvas" height="400px" width="700px"></canvas>
+
+			<div id = "btn_container"></div>
+		</div>
+
+	</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="seeing_spots.js"></script>
+</body>
+</html>
