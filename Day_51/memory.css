@@ -1,0 +1,122 @@
+body{
+	background-color: #ffece5;
+	text-align: center;
+	font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+	margin: 0px;
+
+}
+header{
+	display: inline-block;
+	width: 100%;
+}
+
+#title{
+	position: relative;
+	float: left;
+	font-size: 60px;
+	margin-top:0px;
+	padding-left: 30px;
+	font-family: 'Love Ya Like A Sister', cursive;
+	color: #6666ff;
+
+}
+#links_container{
+	float: right;
+	font-size: 20px;
+	padding:30px;
+}
+a{
+	text-decoration: none;
+	padding-left: 30px;
+	color: #6666ff;
+}
+a:hover{
+	color:#0000ff;
+}
+#game_container{
+	width:900px;
+	margin: auto;
+	z-index: -1;
+}
+#stats_container{
+	height:555px;
+	width:200px;
+	position:relative;	
+	float: left;
+	
+}
+#card_container{
+	display: inline-block;
+	height: 555px;
+	width:650px;
+	position: relative;
+	float: right;
+	right: 30px;
+}
+#stats{	
+	height:30px;
+	padding: 10px;
+	font-size: 30px;
+	color: #eee;
+	margin-top: 100px;
+	background-color: #ff8a66;
+}
+#stats_container h2{
+	text-align: left;
+	font-size: 30px;
+	color: #333;
+	padding: 10px;
+}
+.class_card{
+	display: inline-block;
+	height: 100px;
+	width:100px;
+	margin: 4px;
+	box-shadow: -1px 1px 3px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+.back{
+	background-color: #333;
+}
+img{
+	height: 100px;
+	width:100px;
+}
+.img_display{
+	display: none;
+}
+
+
+.modal {
+	display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.75);
+    z-index: 10;
+}
+
+.inner_modal {
+    position: relative;
+    width: 500px;
+    margin: 150px auto;
+    padding: 50px;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    color: #8E44AD;
+    cursor: pointer;
+}
+
+
+
+
+
+
