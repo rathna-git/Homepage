@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Etch A Sketch | Rathna Ganjigunta</title>
+	<link rel="stylesheet" type="text/css" href="etch_a_sketch.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+    <script src="etch_a_sketch.js"></script>
+</head>
+<body>
+	<header>
+		<a class= "hover" id="title" href="etch_a_sketch.html">ETCH-A-SKETCH</a>
+		<div class= "hover" id = "info">?</div>
+		<div id ="links_container">
+			<a class= "hover" href="../homepage.html">HOME</a>
+			<a class= "hover" href="http://rathnaganjigunta.tumblr.com/">BLOG</a>			
+		</div>
+	</header>
+
+  <div class="modal">
+    <div class="inner_modal">
+      <div class="close">x</div>
+      <h2>Use the arrow keys to sketch</h2>
+      <h2>Grab and shake the screen to erase</h2>
+    </div>
+  </div>
+
+  <div id="container">
+  	<div id="etch_frame">
+  		<div class="logo">MAGIC<span>Etch A Sketch</span>SCREEN</div>
+  		<canvas id="canvas"></canvas>
+  		<div class="knob knob_l"></div>
+  		<div class="knob knob_r"></div>
+  	</div>
+  </div>
+
+
+</body>
+</html>
