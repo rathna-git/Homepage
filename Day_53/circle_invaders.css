@@ -1,0 +1,114 @@
+body{
+	background-color: #999999;
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	color: black;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+}
+header{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+.title {
+	float: left;
+	margin: 0;
+	padding: 10px 20px;
+
+}
+header a {
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+}
+#links_container{
+	float: right;
+	margin-top: 10px;
+}
+
+#stats_container{
+	display: none;
+	padding-left:20px;
+	float: left;
+	font-size: 14px;
+	text-align: left;
+}
+#game_container{
+	position: fixed;
+	z-index: -1;
+}
+
+#stats_container div{
+	padding: 10px 0px;
+}
+.hover:hover{
+	background-color: #ff9933;
+}
+
+#canvas{
+	display: none;
+	position: relative;
+	top:-80px;
+	left:200px;
+	background-color: #262626;	
+}
+
+
+.modal{
+	height: 400px;
+	width: 800px;
+	position: absolute;
+	margin-top:30px;
+	left: 300px;
+	color: black;
+	background-color: transparent;
+}
+#modal h1{
+	font-size: 40px;
+	margin:30px;
+}
+#info{
+	margin-top:10px;
+	font-size: 15px;
+}
+#close{
+	float:right;
+	background-color: #999999;
+	color: #ff9933;
+	font-size: 20px;
+	outline: none;
+	cursor: pointer;
+	border: none;
+}
+#game_over{
+	display: none;	
+	background-color: rgba(166, 166, 166, 0.6);
+	z-index: 10;
+	position: absolute;
+	top:-80;
+}
+#game_over h2{
+	font-size: 30px;
+	margin-top: 100px;
+
+}
+#game_over a{
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: 30px;
+	color: #b34700;
+}
+#game_over a:hover{
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+

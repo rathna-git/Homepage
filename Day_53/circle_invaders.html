@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circle Invaders | Rathna Ganjigunta</title>
+	<link rel="stylesheet" type="text/css" href="circle_invaders.css">
+
+</head>
+<body>
+<header>
+	<a class="title hover" href="circle_invaders.html">CIRCLE INVADERS</a>
+	<div id="links_container">
+		<a class = "hover" href="../homepage.html">HOME</a>
+		<a class = "hover" href="http://rathnaganjigunta.tumblr.com/">BLOG</a>		
+	</div>
+</header>
+
+
+<div class="modal" id="begin">
+	<button id="close">X</button>
+	<h1> Circle Invaders</h1>
+	
+	<div id="info">
+		<h3>Use left and right arrow keys to move the shooter</h3>
+		<h3>Use spacebar to shoot</h3>
+	</div>
+</div>
+
+<div class="modal" id="game_over">
+	<h2>GAME OVER</h2>
+	<a href="circle_invaders.html">Try Again?</a>
+</div>
+
+<div id = game_container>
+<div id="stats_container">
+	<div id="lives">LIVES: 3</div>
+	<div id="score">SCORE: 0</div>
+</div>
+
+<div id="container">
+	<canvas id="canvas" height="550" width="950"></canvas>
+</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="circle_invaders.js"></script>
+</body>
+</html>
