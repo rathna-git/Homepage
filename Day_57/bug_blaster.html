@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bug Blaster | Rathna Ganjigunta</title>
+	<link rel="stylesheet" type="text/css" href="bug_blaster.css">
+</head>
+<body>
+
+  <div class="modal level">
+    <div class="inner_modal">
+      <div class="level_up">Next Level: 1</div>
+    </div>
+  </div>
+
+   <div class="modal game_over">
+    <div class="inner_modal">
+      <h1>Game Over</h1>
+      <a href="bug_blaster.html">Try again?</a>
+    </div>
+  </div>
+
+	<div class="modal" id="info">
+		<div class="inner_modal">
+			<h1>Bug Blaster</h1>
+			<h3>Use the space bar to fire the cannon and blast the bugs out of the sky</h3>
+			<h3>Use the up and down arrows to adjust the angle</h3>
+			<h3>Use the left and right arrows to adjust the power</h3>
+			<button id="start_btn">Start</button>
+		</div>
+	</div>
+
+ <div class="modal win">
+    <div class="inner_modal">
+      <h1>You're a Winner!</h1>
+      <h2>Way to blast all the bugs!</h2>
+      <a href="bug_blaster.html">Play again?</a>
+    </div>
+ </div>
+
+<div id="game_container">
+	<canvas id = "canvas"></canvas>
+</div>	
+
+<footer>
+	<div id="stats_container">
+		<div class="stat level_stat">Level: 1</div>
+		<div class="stat pwr_lvl">Power Level:</div>
+		<div class="stat bullets">Bullets:</div>
+	</div>
+	<div id="links_container">
+		<a href="../homepage.html" target="_blank">Home</a>
+		<a href="http://rathnaganjigunta.tumblr.com/" target="_blank">Blog</a>
+	</div>
+</footer>	
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../underscore.js"></script>
+<script src="bug_blaster.js"></script>
+</body>
+</html>

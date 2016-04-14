@@ -1,0 +1,115 @@
+html,body{
+	
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.modal{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	background-color: rgba(255,255,255,0.4);
+	z-index: 100;
+}
+.inner_modal{
+	position: relative;
+	width:420px;
+	margin: 100px auto;
+}
+
+ h1{
+	font-size: 45px;
+	font-weight: bold;
+}
+
+ h3{
+	margin-top: 30px;
+	font-size: 20px;
+}
+#start_btn{
+	margin-top: 30px;
+	background-color: #00cccc;
+	font-size: 20px;
+	color: #eee;
+	padding: 12px 25px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.level{
+	display: none;
+}
+.level_up{
+	font-size: 45px;
+	font-weight: bold;
+}
+.game_over{
+	display: none;
+}
+
+.game_over a{
+	font-size: 20px;
+	padding-left: 10px;
+	text-decoration: none;
+	color: #008080;
+}
+.game_over a:hover{
+	color: black;
+}
+
+.win{
+	display: none;
+}
+
+h2{
+	font-size: 30px;
+}
+.win a{
+	font-size: 20px;
+	padding-left: 10px;
+	text-decoration: none;
+	color: #008080;
+}
+.win a:hover{
+	color: black;
+}
+
+footer{
+	display: inline-block;
+	position: absolute;
+	height: 40px;
+	width:100%;
+	bottom: 0;
+	left: 0;
+	right:0;	
+}
+#stats_container{
+	display: none;
+	float: left;
+	padding: 5px 19px;
+	font-size: 20px;
+}
+.stat{
+	display: inline-block;
+   padding-right: 20px;
+}
+#links_container{
+	float: right;
+	padding: 5px 15px;	
+}
+#links_container a {
+	font-size: 20px;
+	padding-left: 10px;
+	text-decoration: none;
+	color: black;
+}
+#links_container a:hover{
+	color:#00cccc;
+}
+
+
+
+
+
+
