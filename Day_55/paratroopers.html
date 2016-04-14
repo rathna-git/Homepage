@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paratroopers | Rathna Ganjigunta</title>
+	<link rel="stylesheet" type="text/css" href="paratroopers.css">
+</head>
+<body>
+  <div class="modal" id="game_over">
+    <div class="inner_modal">
+      <h1>Game Over</h1>
+      <a href="paratroopers.html">Try again?</a>
+    </div>
+  </div>
+<div class="modal" id="start_page">
+	<div class="inner_modal">
+		<h1>Paratroopers</h1>
+		<h3>Your paratroopers need a vacation</h3>
+		<h3>Use the spacebar to drop them on the island</h3>
+		<button class="start_btn">Start</button>
+	</div>
+</div>
+
+<div id="container">
+	<canvas id="canvas"></canvas>
+</div>
+
+<div class="modal" id="nxt_level">
+	<div class="inner_modal">
+		<h1>Excellent Work!</h1>
+		<h3>Next Level: 0</h3>
+		<button class="start_btn">Start</button>
+	</div>
+</div>
+
+<footer>
+	<div id="stats_container">
+		<div class="stat troopers"></div>
+		<div class="stat hits"></div>
+		<div class="stat goal"></div>
+	</div>
+	<div id="links_container">
+		<a href="../homepage.html" target="_blank">Home</a>
+		<a href="http://rathnaganjigunta.tumblr.com/" target="_blank">Blog</a>
+	</div>
+</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../underscore.js"></script>
+<script src="paratroopers.js"></script>
+</body>
+</html>

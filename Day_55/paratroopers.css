@@ -1,0 +1,93 @@
+html,body{
+	font-family: Consolas, monaco, monospace;
+	text-align: center;
+	letter-spacing: 3px;
+	width: 100%;
+	height:100%;
+	margin: 0;
+	overflow: hidden;
+}
+.modal {
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	color: #000066;
+	background-color: white;
+	z-index: 100;
+}
+.inner_modal{
+	position: relative;
+	width:700px;
+	margin: 100px auto;
+
+}
+.start_btn{
+	margin-top: 30px;
+	width:120px;
+	font-size: 20px;
+	padding: 12px;
+	color:#eee;
+	background-color: #00b300;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+#nxt_level{
+	display: none;
+}
+footer{
+	position: absolute;
+	left: 0;
+	right:0;
+	bottom: 0px;
+	width: 100%;
+	background-color: #66a3ff;
+	height: 40px;
+	color: #eee;
+	font-size: 15px;
+}
+#stats_container{
+	display: none;
+	float: left;
+	padding-top: 3px;
+	padding-left: 20px;
+}
+.stat{
+	display: inline-block;
+    padding: 5px ;
+}
+#links_container{
+	float:right;
+	padding-top: 8px;
+	padding-right: 20px;
+}
+#links_container a {
+	text-decoration: none;
+	color: #eee;
+	padding:  5px;
+}
+#container {
+    padding-bottom: 36px;
+}
+#canvas{
+	border-bottom:1px solid black;
+
+}
+#game_over{
+	display: none;
+}
+#game_over a{
+	text-decoration: none;
+	color: #66a3ff;
+	padding:  5px;
+	font-size: 15px;
+
+}
+
+#start_page a{
+	text-decoration: none;
+	color: #66a3ff;
+	padding:  5px;
+	font-size: 15px;
+}
