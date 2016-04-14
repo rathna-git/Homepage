@@ -1,0 +1,36 @@
+body{
+	text-align: center;
+	font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+	letter-spacing: 2px;
+	margin: 0px;
+	background-color: black;
+}
+footer{
+	display: inline-block;
+	position: absolute;
+	height:40px;
+	width: 100%;
+	bottom: 0;
+	left:0;
+	right:0;
+	background-color: black;
+}
+#links_container{
+	float: right;
+	display: inline-block;
+	padding-right: 20px;
+	
+}
+#links_container a{
+	padding: 10px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #8c1aff;
+}
+#links_container a:hover{
+	color: #ff0000;
+}
+#canvas{
+	vertical-align: bottom;
+	cursor: pointer;
+}
