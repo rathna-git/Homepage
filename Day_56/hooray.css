@@ -1,0 +1,103 @@
+html,body{
+	height: 100%;
+	width:100%;
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;	
+	margin: 0px;
+	letter-spacing: 2px;
+	overflow: hidden;
+}
+
+header{
+	position: absolute;
+	display: inline-block;
+	margin: 10px;
+	top:0;
+	left:0;
+	right:0;
+}
+footer{
+	position: absolute;
+	display: inline-block;
+	margin: 10px;
+	bottom: 0;
+	left:0;
+	right:0;
+
+}
+#sound_btn{
+	float: right;
+	font-size: 12px;
+	padding: 5px 10px;
+    color:#eee;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 100;
+}
+.on{
+	background-color: #009933;
+}
+.off{
+	background-color: #6600cc;
+}
+
+#links_container{
+	float: right;
+	padding-right: 5px;
+	z-index: 100;
+}
+#links_container a{
+	font-size:15px;
+	text-decoration: none;
+	color: #6600cc;
+	padding: 10px 5px;
+}
+#rope_wrap{
+	z-index: 100;
+	position: absolute;
+	top:-320px;
+	left:60px;
+	cursor: pointer;
+	height:800px;
+	
+	
+}
+#rope{
+	
+}
+#message{
+	position: absolute;
+	display: inline-block;
+	top: 360px;
+	left: 160px;
+}
+#arrow{
+  position: absolute;
+  top: 10px;
+  left: -30px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-right: 12px solid #6600cc;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+#arrow:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 5px solid #6600cc;
+  border-radius: 20px 0 0 0;
+  top: -17px;
+  left: -16px;
+  width: 18px;
+  height: 18px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
