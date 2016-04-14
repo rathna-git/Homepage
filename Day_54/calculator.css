@@ -1,0 +1,80 @@
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	letter-spacing: 3px;
+	text-align: center;
+	background-color: #40393e;
+}
+header{
+	display: inline-block;
+	width: 100%;
+	
+}
+#title{
+	float: left;
+	padding: 10px 20px;
+	font-size: 30px;
+}
+#links_container{
+	float: right;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+header a {
+	text-decoration: none;
+	color: #999999;
+	padding-right: 15px;
+}
+#links_container a:hover{
+	color: #5cd6d6;
+}
+#container{
+	position: relative;
+}
+#input_field{
+	height: 90px;
+	width:346px;
+	font-size: 45px;
+	text-align: right;
+	padding: 10px;
+	outline: none;
+
+}
+#input_field::-webkit-inner-spin-button, 
+#input_field::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+#btn_container{
+	position: relative;
+	left:511px;
+	height: 395px;
+	width:350px;
+	background-color: #999999;
+	padding:10px;
+}
+.btn_box{
+	display: inline-block;
+	height:25px;
+	width:35px;
+	margin: 6px;
+	text-align: center;
+	box-shadow: 2px 4px 8px 2px #666;
+	background-color: white;
+	color: #262626;
+	font-size: 20px;
+	padding: 20px;
+	cursor: pointer;
+	border: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
