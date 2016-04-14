@@ -12,6 +12,7 @@ html,body{
 	background-color: rgba(255,255,255,0.4);
 	z-index: 100;
 }
+
 .inner_modal{
 	position: relative;
 	width:420px;
