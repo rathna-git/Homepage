@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fizz Buzz | Rathna Ganjigunta</title>
+	<link rel="stylesheet" type="text/css" href="fizz_buzz.css">
+</head>
+<body>
+	<div class="modal" id="info">
+		<h1>Fizz Buzz Test</h1>
+		<h3>You'll be shown 30 random numbers between 1 and 1000.</h3>
+		<h3>If the number is divisible by 3, enter fizz.</h3>
+		<h3>If the number is divisible by 5, enter buzz.</h3>
+		<h3>If the number is divisible by 3 and 5, enter fizz buzz.</h3>
+		<h2> How fast can you fizz buzz? </h2>
+
+		<button id="strt_btn">Start</button>
+	</div>
+	<div class = "modal" id="end">
+		<h2 id = "timer"></h2>
+		<h2 id = "misses"></h2>
+		<h2 id = "accuracy"></h2>
+		<a href = "fizz_buzz.html">Try Again?</a>
+	</div>
+	<div id="container">
+		<div id="stats_container">
+			<div class="stat time">Time: 00:00</div>
+			<div class="stat miss">Misses: 0</div>
+			<div class="stat rounds">Rounds Left: 30</div>
+		</div>
+		<div id="num_container">000</div>
+		<form>
+			<input id="input" type="text">
+			<input id="submit" type="submit" value="Submit">
+		</form>
+	</div>
+
+	<footer>
+		<div id="links_container">
+			<a href="../homepage.html" target="_blank">Home</a>
+			<a href="http://rathnaganjigunta.tumblr.com/" target="_blank">Blog</a>
+
+		</div>
+	</footer>
+	<div id="sound"></div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="fizz_buzz.js"></script>
+</body>
+</html>
