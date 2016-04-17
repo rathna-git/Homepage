@@ -24,7 +24,7 @@ header a {
 	color: #999999;
 	padding-right: 15px;
 }
-#links_container a:hover{
+header a:hover{
 	color: #5cd6d6;
 }
 #container{
@@ -46,7 +46,7 @@ header a {
 }
 #btn_container{
 	position: relative;
-	left:511px;
+	left:513px;
 	height: 395px;
 	width:350px;
 	background-color: #999999;
