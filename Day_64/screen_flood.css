@@ -1,0 +1,95 @@
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	letter-spacing: 3px;
+	text-align: center;
+}
+header{
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	z-index: 10;
+}
+#rain_btn{
+	float: left;
+	margin: 15px 15px;
+	padding: 5px 10px;
+	background-color: #26004d;
+	color:#f2f2f2;
+	font-size: 12px;
+	outline: none;
+	border:none;
+	cursor: pointer;
+}
+#links_container{
+	float: right;
+	padding: 15px 20px;
+	font-size: 15px;
+}
+header a {
+	text-decoration: none;
+	color: #26004d;
+	padding-right: 15px;
+}
+header a:hover{
+	color: #5cd6d6;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+}
+#ducky {
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    z-index: 20;
+
+    -webkit-animation: bob 3s infinite linear;
+    -moz-animation: bob 3s infinite linear;
+    -ms-animation: bob 3s infinite linear;
+    -o-animation: bob 3s infinite linear;
+    animation: bob 3s infinite linear;
+}
+
+@-webkit-keyframes bob {
+    0% {-webkit-transform: rotate(0) translateY(0);}
+    25% {-webkit-transform: rotate(3deg) translateY(-2px);}
+    75% {-webkit-transform: rotate(-3deg);}
+    100% {-webkit-transform: rotate(0) translateY(0);}
+}
+@-moz-keyframes bob {
+    0% {-moz-transform: rotate(0) translateY(0);}
+    25% {-moz-transform: rotate(3deg) translateY(-2px);}
+    75% {-moz-transform: rotate(-3deg);}
+    100% {-moz-transform: rotate(0) translateY(0);}
+}
+@-ms-keyframes bob {
+    0% {-ms-transform: rotate(0) translateY(0);}
+    25% {-ms-transform: rotate(3deg) translateY(-2px);}
+    75% {-ms-transform: rotate(-3deg);}
+    100% {-ms-transform: rotate(0) translateY(0);}
+}
+@-o-keyframes bob {
+    0% {-o-transform: rotate(0) translateY(0);}
+    25% {-o-transform: rotate(3deg) translateY(-2px);}
+    75% {-o-transform: rotate(-3deg);}
+    100% {-o-transform: rotate(0) translateY(0);}
+}
+@keyframes bob {
+    0% {transform: rotate(0) translateY(0);}
+    25% {transform: rotate(3deg) translateY(-2px);}
+    75% {transform: rotate(-3deg);}
+    100% {transform: rotate(0) translateY(0);}
+}
+
+
+
+
