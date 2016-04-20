@@ -1,0 +1,303 @@
+html{
+	background: url(images/concrete.png) repeat ;
+}
+body{
+	text-align: center;
+	margin: 0px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 4px;
+	color:#333;
+	text-shadow: 0 1px 1px rgba( 255,255,255, 0.5);
+}
+
+footer{
+	display: inline-block;
+	height: 30px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+}
+#links_container{
+	float: right;
+	padding-right: 30px;
+}
+#links_container a{
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	padding:  5px;
+}
+
+#links_container a:hover{
+	color: #008000;
+}
+
+#container{
+	position: relative;
+	margin: 30px auto;
+	height: 320px;
+	
+	
+}
+#message{
+	font-size:30px;
+}
+
+#robot_body{
+	position: relative;
+	margin: 30px auto;
+	top:-210px;
+	height:250px;
+	width:250px;
+	border: 1px solid #1a1a1a;
+	border-radius: 5px;
+	background: #404040; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#666666, #404040); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#666666, #404040); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#666666, #404040); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#666666, #404040); /* Standard syntax */
+    z-index: -1;
+    box-shadow: 1px 1px 10px rgba(255,255,255,0.6) inset,
+				-1px -1px 10px rgba(0,0,0,0.6) inset,
+				0 0 3px rgba(0,0,0,0.6) inset;
+}
+.eye{	
+	position: absolute;
+	top:40px;
+	height:60px;
+	width:60px;	
+	border-radius: 50%;
+	background: #009900; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#00ff00 40%, #009900 50%); /* Safari 5.1-6.0 */
+    background: -o-radial-gradient(#00ff00 40%, #009900 50%); /* For Opera 11.6-12.0 */
+    background: -moz-radial-gradient(#00ff00 40%,  #009900 50%); /* For Firefox 3.6-15 */
+    background: radial-gradient(#00ff00 40%,  #009900 50%); /* Standard syntax */
+}
+
+.pupil{
+	position: relative;
+	
+	top:16px;
+	left:16px;
+	height: 28px;
+	width:28px;
+	border-radius: 50%;
+	background-color: #333;
+}
+.left{	
+	left:40px;
+}
+.right{
+	right:40px;
+}
+.nose{
+	position: absolute;
+	top: 110px;
+	left:90px;
+	width: 0px;
+	height:0px;
+	border-left: 35px solid transparent ;
+	border-right: 35px solid transparent;
+	border-bottom: 35px solid #262626;
+}
+.mouth{
+	position: absolute;
+	top:180px;
+	left:25px;
+	width:200px;
+	height:40px;
+	background-color: #262626;
+	border-radius: 5px;
+	box-shadow:  2px 2px 4px #404040 inset;
+}
+.ear{
+
+	height: 80px;	
+	top:140px;
+	width:30px;
+	position: relative;
+	background-color: #262626;
+	border-radius: 3px;
+}
+.left_ear{
+	left:550px;
+}
+.right_ear{
+	top:20px;
+	right:-830px;
+}
+.small_ear{
+	
+	height: 40px;
+	width:20px;
+	position: relative;
+	background-color: #00cc00;
+	border-radius: 5px;
+}
+.left_small{
+	top:85px;
+   left:530px;
+}
+.right_small{
+	top:-35px;
+	right:-860px;
+}
+
+.head_shadow {
+	margin: 0 auto 0; 
+	position: relative;
+	top: -180px;	
+	border-radius: 50%;
+	height: 10px;
+	width: 270px;
+	background-color: rgba(0,0,0,0.1);
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+form{
+	position: relative;
+	margin: 150px auto;
+	
+}
+input[type="text"]{
+	height:50px;
+	width:400px;
+	border : none;
+	border-bottom: 2px solid #666;
+	outline: none;
+	background-color: transparent;
+	margin: 10px;
+	font-size: 30px;
+}
+input[type="submit"]{
+	height:50px;
+	width:100px;
+	border: none;
+	padding: 5px 10px;
+	background-color:  #333;
+	border-radius: 3px;
+	font-size: 18px; 
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 2px;
+	color: white;
+	cursor: pointer;
+}
+
+.blink {
+	-webkit-animation: blink 5s infinite;
+	-moz-animation: blink 5s infinite;
+	-ms-animation: blink 5s infinite;
+	-o-animation: blink 5s infinite;
+	-animation: blink 5s infinite;
+}
+
+.bounce {
+	animation: bounce 0.5s;
+	-moz-animation: bounce 0.5s; 
+	-webkit-animation: bounce 0.5s; 
+	-o-animation: bounce 0.5s; 
+}
+
+
+ /* Blink animation */
+@-webkit-keyframes blink {
+	0% {-webkit-transform: scale(1,1);}
+	49% {-webkit-transform: scale(1,1);}
+	50% {-webkit-transform: scale(1,0);}
+	51% {-webkit-transform: scale(1,0);}
+	52% {-webkit-transform: scale(1,1);}
+	53% {-webkit-transform: scale(1,1);}
+	54% {-webkit-transform: scale(1,0);}
+	55% {-webkit-transform: scale(1,0);}
+	56% {-webkit-transform: scale(1,1);}
+	100% {-webkit-transform: scale(1,1);}
+}
+
+@-moz-keyframes blink {
+	0% {-moz-transform: scale(1,1);}
+	49% {-moz-transform: scale(1,1);}
+	50% {-moz-transform: scale(1,0);}
+	51% {-moz-transform: scale(1,0);}
+	52% {-moz-transform: scale(1,1);}
+	53% {-moz-transform: scale(1,1);}
+	54% {-moz-transform: scale(1,0);}
+	55% {-moz-transform: scale(1,0);}
+	56% {-moz-transform: scale(1,1);}
+	100% {-moz-transform: scale(1,1);}
+}
+@-ms-keyframes blink {
+	0% {-ms-transform: scale(1,1);}
+	49% {-ms-transform: scale(1,1);}
+	50% {-ms-transform: scale(1,0);}
+	51% {-ms-transform: scale(1,0);}
+	52% {-ms-transform: scale(1,1);}
+	53% {-ms-transform: scale(1,1);}
+	54% {-ms-transform: scale(1,0);}
+	55% {-ms-transform: scale(1,0);}
+	56% {-ms-transform: scale(1,1);}
+	100% {-ms-transform: scale(1,1);}
+}
+@-o-keyframes blink {
+	0% {-o-transform: scale(1,1);}
+	49% {-o-transform: scale(1,1);}
+	50% {-o-transform: scale(1,0);}
+	51% {-o-transform: scale(1,0);}
+	52% {-o-transform: scale(1,1);}
+	53% {-o-transform: scale(1,1);}
+	54% {-o-transform: scale(1,0);}
+	55% {-o-transform: scale(1,0);}
+	56% {-o-transform: scale(1,1);}
+	100% {-o-transform: scale(1,1);}
+}
+@keyframes blink {
+	0% {transform: scale(1,1);}
+	49% {transform: scale(1,1);}
+	50% {transform: scale(1,0);}
+	51% {transform: scale(1,0);}
+	52% {transform: scale(1,1);}
+	53% {transform: scale(1,1);}
+	54% {transform: scale(1,0);}
+	55% {transform: scale(1,0);}
+	56% {transform: scale(1,1);}
+	100% {transform: scale(1,1);}
+}
+
+/* Bounce Animation */
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateX(0);}
+    10%,30%,70%,90%{transform: translateX(30px);}
+    40% {-webkit-transform: translateX(-50px);}
+    60% {-webkit-transform: translateX(-30px);}
+}
+ 
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-moz-transform: translateX(0);}
+    10%,30%,70%,90%{transform: translateX(30px);}
+    40% {-moz-transform: translateX(-50px);}
+    60% {-moz-transform: translateX(-30px);}
+}
+ 
+@-ms-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-ms-transform: translateX(0);}
+    10%,30%,70%,90%{transform: translateX(30px);}
+    40% {-ms-transform: translateX(-50px);}
+    60% {-ms-transform: translateX(-30px);}
+}
+ 
+@-o-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-o-transform: translateX(0);}
+    10%,30%,70%,90%{transform: translateX(30px);}
+    40% {-o-transform: translateX(-50px);}
+    60% {-o-transform: translateX(-30px);}
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateX(0);}
+    10%,30%,70%,90%{transform: translateX(30px);}
+    40% {transform: translateX(-50px);}
+    60% {transform: translateX(-30px);}
+}
+
