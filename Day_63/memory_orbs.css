@@ -1,0 +1,159 @@
+html{
+	background: url(images/twinkle.png) repeat;
+}
+
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+header{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;	
+}
+#title{
+	float: left;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+#links_container{
+	float: right;
+	padding: 10px 20px;
+	font-size: 15px;
+}
+header a {
+	text-decoration: none;
+	color: #999999;
+	padding-right: 15px;
+}
+header a:hover{
+	color: #5cd6d6;
+}
+footer{
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+.level{
+  float: left;
+  padding: 20px 25px;
+  font-size: 20px;
+  color: #5cd6d6;
+}
+
+.modal{
+	position: absolute;
+	left: 450px;
+	height:280px;
+	width: 500px;
+	background-color: rgba(0,0,0,0.4);
+	margin: 100px auto;
+	color:#5cd6d6;
+	text-align: center;
+	letter-spacing: 4px;
+	z-index: 10;
+	text-shadow: 0 0 1px #eee;
+}
+
+#close{
+	background-color: transparent;
+	outline: none;
+	border:none;
+	color:#5cd6d6;
+    float:right;
+    font-size: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+h2{
+	margin: 40px 10px;
+	font-size: 25px;
+}
+
+.board {
+    position: relative;
+    width: 700px;
+    height: 450px;
+    margin: 20px auto;
+}
+.orb{
+	position: absolute;
+	height:40px;
+	width:40px;
+	border-radius: 50%;
+	background-color: #a6a6a6;
+	cursor: pointer;
+
+	box-shadow: -3px -3px 5px rgba(0,0,0, 0.3) inset, 3px 3px 5px rgba(0,0,0, 0.08) inset,
+                0 0 10px rgba(0,0,0, 0.8);
+
+    background: -webkit-gradient(radial, 65% 25%, 0px, center center, 100%, color-stop(10%,#aaa8af), color-stop(100%,#5d5b63)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(65% 25%, ellipse cover, #aaa8af 10%,#5d5b63 100%); /* Chrome10+,Safari5.1+ */
+    background: -moz-radial-gradient(65% 25%, ellipse cover, #aaa8af 10%, #5d5b63 100%); /* FF3.6+ */
+    background: -ms-radial-gradient(65% 25%, ellipse cover, #aaa8af 10%,#5d5b63 100%); /* IE10+ */
+    background: -o-radial-gradient(65% 25%, ellipse cover, #aaa8af 10%,#5d5b63 100%); /* Opera 12+ */
+    background: radial-gradient(ellipse at 65% 25%, #aaa8af 10%,#5d5b63 100%); /* W3C */
+}
+
+.lit {
+    box-shadow: 0 0 10px rgba(39,247,247, 0.45), 0 0 20px rgba(39,247,247, 0.45),
+                -3px -3px 3px rgba(0,0,0, 0.09) inset, 3px 3px 3px rgba(0,0,0, 0.09) inset;
+
+    background: #27f7f7; /* Old browsers */
+    background: -webkit-gradient(radial, 65% 25%, 0px, center center, 100%, color-stop(10%,#67f7eb), color-stop(100%,#4DA9E2)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(65% 25%, ellipse cover, #67f7eb 10%,#4DA9E2 100%); /* Chrome10+,Safari5.1+ */
+    background: -moz-radial-gradient(65% 25%, ellipse cover, #67f7eb 10%, #4DA9E2 100%); /* FF3.6+ */
+    background: -ms-radial-gradient(65% 25%, ellipse cover, #67f7eb 10%,#4DA9E2 100%); /* IE10+ */
+    background: -o-radial-gradient(65% 25%, ellipse cover, #67f7eb 10%,#4DA9E2 100%); /* Opera 12+ */
+    background: radial-gradient(ellipse at 65% 25%, #67f7eb 10%,#4DA9E2 100%); /* W3C */
+}
+
+.shake {
+    -webkit-animation: shake 0.4s;
+    -moz-animation: shake 0.4s;
+    -ms-animation: shake 0.4s;
+    -o-animation: shake 0.4s;
+    animation: shake 0.4s;
+}
+
+@-webkit-keyframes shake {
+    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {-webkit-transform: translateX(0);}
+    5%, 25%, 45%, 65%, 85% {-webkit-transform: translateX(2px);}
+    15%, 35%, 55%, 75%, 95% {-webkit-transform: translateX(-2px);}
+}
+@-moz-keyframes shake {
+    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {-moz-transform: translateX(0);}
+    5%, 25%, 45%, 65%, 85% {-moz-transform: translateX(2px);}
+    15%, 35%, 55%, 75%, 95% {-moz-transform: translateX(-2px);}
+}
+@-ms-keyframes shake {
+    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {-ms-transform: translateX(0);}
+    5%, 25%, 45%, 65%, 85% {-ms-transform: translateX(2px);}
+    15%, 35%, 55%, 75%, 95% {-ms-transform: translateX(-2px);}
+}
+@-o-keyframes shake {
+    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {-o-transform: translateX(0);}
+    5%, 25%, 45%, 65%, 85% {-o-transform: translateX(2px);}
+    15%, 35%, 55%, 75%, 95% {-o-transform: translateX(-2px);}
+}
+@keyframes shake {
+    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {transform: translateX(0);}
+    5%, 25%, 45%, 65%, 85% {transform: translateX(2px);}
+    15%, 35%, 55%, 75%, 95% {transform: translateX(-2px);}
+}
+
+
+
+
+
+
+
+
+
+
+
