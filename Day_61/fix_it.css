@@ -1,0 +1,138 @@
+
+html{
+  background:  url(images/maze.png) repeat ;
+}
+
+body{
+	text-align: center;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	letter-spacing: 4px;
+	color:#333;
+	text-shadow: 0 1px 1px rgba( 255,255,255, 0.5);
+}
+
+#container{
+	margin: 100px auto;
+	width:800px;	
+}
+
+#btn{
+	cursor: pointer;
+}
+#btn_container{
+	position: relative;
+	margin: 100px auto;
+	background: #fff;
+	border-top: 2px solid #ddd;
+    height: 180px;
+    width:180px;
+	z-index: -1;		
+	border-radius: 50%;
+	box-shadow: inset 0px 8px 48px #ddd;
+}
+
+#fix_btn{
+	position: relative;
+	top:-88px;
+	margin: 100px auto;
+	height: 150px;
+	width: 150px;
+	border: 1px solid #333;
+	border-radius: 50%;
+	background-color: #f5f5f5;
+	z-index: 100;
+	box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+}
+
+img{
+	height:100px;
+	width:100px;
+	padding: 18px;
+}
+
+p{
+	font-size: 20px;
+}
+
+footer{
+	display: inline-block;
+	height: 30px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+}
+#links_container{
+	float: right;
+	padding-right: 30px;
+}
+#links_container a{
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	padding:  5px;
+}
+
+#links_container a:hover{
+	color: #ff4d4d;
+}
+
+.progress_container{
+	display: none;
+	position: relative;
+	margin: auto;	
+	height:200px;
+	width:600px;
+	border: 1px solid #1a1a1a;
+	border-radius: 10px;
+	background: #404040; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#666666, #404040); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#666666, #404040); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#666666, #404040); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#666666, #404040); /* Standard syntax */
+    z-index: 10;
+    font-size: 18px;
+    color:#1a1a1a;
+
+}
+.progressbar{
+	position: relative;
+	top:35px;
+	left:20px;
+	height: 35px;
+	width:550px;
+	background-color: #1a1a1a;
+	border-radius: 10px;
+	background: #1a1a1a; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient( #666666 25%, #1a1a1a 75%); /* Safari 5.1-6.0 */
+    background: -o-radial-gradient( #666666 25%, #1a1a1a 75%); /* For Opera 11.6-12.0 */
+    background: -moz-radial-gradient( #666666 25%, #1a1a1a 75%); /* For Firefox 3.6-15 */
+    background: radial-gradient( #666666 25%, #1a1a1a 75%); /* Standard syntax */		
+}
+.inner_bar{
+	position: relative;
+	top:8px;
+	left:13px;
+	height:18px;
+	width:10px;
+	background-color: #0000e6;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
