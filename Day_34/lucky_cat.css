@@ -1,7 +1,6 @@
 body{
 	font-family: Arial Black, Arial Bold, Gadget, sans-serif;
 	text-align: center;
-
 }
 #title{
 	float: left;
@@ -26,9 +25,7 @@ a{
 	position: absolute;
 	top:400px;
 	left:200px;
-	z-index: 10;
-
-	
+	z-index: 10;	
 }
 
 #cat_container{
@@ -37,7 +34,6 @@ a{
 	left:450px;
 	height:500px;
 	width:300px;
-	
 
 	-webkit-perspective: 1000px;
   	-moz-perspective: 1000px;
