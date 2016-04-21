@@ -6,7 +6,7 @@ $(document).ready(function(){
   	  	circles = [],
   	  	bullets = [],
   	  	tankX = w/2,
-		tankY = h-40,
+		    tankY = h-40,
   	  	lives = 3;
   	  	score = 0,
   	  	color = ['#ff3399','#66ff33','#ffff00','#0099ff','#ff6666','#00ff00','#ff6600','#ffff66','#cc00cc',
@@ -90,7 +90,7 @@ function init(){
 				ctx.fill();
 
 	  			_.each(circles, function(c, j){
-	  				if ( b.shotX < c.xPos + c.size && b.shotX > c.xPos - c.size){
+	  				if ( b.shotX <= c.xPos + c.size && b.shotX >= c.xPos - c.size){
 	  					if (b.shotY <= c.yPos + c.size){
 	  						score++;
 	  						circles[j] = new Circle();
