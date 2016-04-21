@@ -204,7 +204,9 @@ $(document).ready(function(){
  			});
 
  			_.each(invaders, function(invader, j){
- 				if (invader.x  <= ship_x + 40 && invader.x  >= ship_x - 15 && invader.y  <= ship_y + 40 && invader.y >= ship_y ){
+ 				if (invader.x - 25 <= ship_x + 40 && invader.x  - 25 >= ship_x - 15) {
+ 					if (invader.y + 20  <= ship_y + 40 && invader.y + 20 >= ship_y  ||
+ 					 	invader.y  <= ship_y  && invader.y >= ship_y ) {
  					
  						clearInterval(play);
 
@@ -239,7 +241,8 @@ $(document).ready(function(){
 					    ctx.closePath();
 
 					    $('#game_over').show();
-				} 		
+					} 
+				}		
  			});
 
  		};
